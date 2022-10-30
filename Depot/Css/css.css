@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: Catamaran, sans-serif;
+    font-weight: 300;
+}
+
+.container {
+    padding: 0 7rem;
+}
+
+header .container a img {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+header .container .header-all {
+    position: absolute;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+     display: flex;  
+       margin-top: -2rem;
+}
+
+header .container .header-all .logo {
+    width: 40%;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+header .container .header-all .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+}
+
+header .container .header-all .left a {
+   
+    color: black;
+    filter: opacity(1);
+    transition: 0.3s;
+}
+
+header .container .header-all .left a:hover {
+    filter: opacity(0.5);
+}
+
+header .header-all nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 18%;
+}
+
+header .header-all nav a {
+    color: #000000;
+}
+
+main .container .contemporary {
+    background-color: #E3E3E3;
+    position: relative;
+
+}
+
+main {
+    margin: 2rem auto;
+}
+
+main .container .contemporary .left {
+    width: 50%;
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+}
+
+main .container .contemporary .left p {
+    color: #080808;
+    font-size: 30px;
+    letter-spacing: 4px;
+}
+
+main .container .contemporary .left span {
+    font-size: 20px;
+    color: #A1A09F;
+}
+
+main .container .contemporary .right img {
+    margin-left: 46rem;
+    position: relative;
+}
+
+main .container .product {
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+main .container .product .select a {
+    text-decoration: none;
+    color: black;
+    padding: 2rem 1rem;
+    filter: opacity(1);
+    transition: 0.3s;
+}
+
+main .container .product .select a:hover {
+    filter: opacity(0.5);
+}
+
+.container .prodinfo {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.container .prodinfo .card {
+    width: 24%;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+
+.container .prodinfo .card img {
+    width: 100%;
+}
+
+.container .prodinfo .card .info a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Catamaran, sans-serif;
+    color: #000000;
+}
+
+.container .prodinfo .card .info p {
+    color: #A1A09F;
+}
+
+.container .prodinfo .card .info {
+    margin: 18px auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.container .media {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+.container .media .service{
+margin-right: 10rem;
+}
+.container .media .service a{
+    text-decoration: none;
+    color: #A1A09F;
+    line-height: 27px;   
+}
+.container .media .service  h3{
+    margin: 10px auto;
+}
+
+hr{
+       border: none;
+    background-color:#d7d5d3;
+    height: 0.09px;    
+}
+footer .lastpart {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto;
+}
+footer .lastpart a{
+    text-decoration: none;
+    color: #A1A09F;
+    font-size: 10px;
+}
+footer .lastpart .follow{
+    display: flex;
+    justify-content: space-between;
+}
+footer .lastpart .follow-us h6{
+    color: #A1A09F;
+    margin-right: 1rem;
+}
+footer .lastpart .icons i{
+    color: #000000;
+    font-size: 18px;
+  
+    display: flex;
+    justify-content: space-between;
+  
+}
+.sticky-icon{width: 2.3%;
+    box-shadow: 10px 0px 13px 2px darkgrey;
+position:absolute;
+position: fixed;
+right: 0rem;
+bottom: 20rem;
+}
+.sticky-icon i:nth-child(1) {
+    color: #ffffff;
+    background-color: red;
+   padding: 9px;
+   font-weight: bold;}
+   .sticky-icon i:nth-child(2) {
+    color: red;
+    background-color: white;
+   padding: 9px;
+   font-weight: bold;
+}
